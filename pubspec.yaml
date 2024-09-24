@@ -1,0 +1,30 @@
+name: breaking_slience
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Kouten
+      fonts:
+        - asset: assets/fonts/Koulen-Regular.ttf
+
+  assets:
+    - assets/images/hand_background.png
+    - assets/images/logo_circle.png
+    - assets/images/logo_hand.png
